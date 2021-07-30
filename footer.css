@@ -57,3 +57,52 @@
     z-index: 1;
     position: absolute;
 }
+
+/*
+AAgii suul heseg Utas hayg
+*/
+.footerinfo{
+    margin-top: 10px;
+
+}
+.footerinfo1 p{
+    font-family: "futura-pt",sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    padding: 58px 0px 0px 0px;
+    font-weight: bolder;
+    color: #333;
+}
+.footerinfo2 p{
+    font-family: "futura-pt",sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 15px;
+    margin: 0 0 10px;
+    text-align: left;
+    color: #333;
+
+}
+
+.footerinfo3 p {
+    font-family: "futura-pt",sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    padding-left: 15px;
+    color:#333;
+    text-align: left;
+}
+
+.logo-footer img {
+    height: 125px;
+    width: auto;
+}
+.footerinfo3 p a{
+    color: #333;
+    text-decoration: none;
+    
+}
+.footerinfo3 a:hover {
+    color: yellow;
+    text-decoration: none;
+}

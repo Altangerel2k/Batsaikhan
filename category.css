@@ -85,3 +85,24 @@ section{
     color: white;
 }
 /* category section*/
+.mainn h2{
+    width: 200px;
+    color: #333;
+    font-size: 25px;
+    text-align:left;
+}
+.mainn p{
+    width: 200px;
+    color: #333;
+    text-align:left;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.bdhomeBoder {
+    width: 50%;
+    border-bottom: 1px solid black;
+    margin-left: 15px;
+    padding-left: -10px;
+    line-height: 1.42857143;
+    color: #333;
+}

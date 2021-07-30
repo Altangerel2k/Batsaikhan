@@ -8,7 +8,7 @@ header {
 body{
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -34,6 +34,7 @@ body{
     font-weight: 100;
     width: 80%;
     float: right;
+    margin-left: 400px;
     letter-spacing: 3px;
 }
 .kategoryBlockRight {
@@ -50,6 +51,7 @@ body{
     display: block;
     width: 43px;
     height: 42px;
+    margin-left: -100px;
 }
 /*tuuh1 togsgol*/
 
@@ -72,6 +74,7 @@ body{
     line-height: 55px;
     letter-spacing: 10px;
     position: relative;
+    color: #333;
 }
 /*tuuh2 togsgol*/
 
@@ -81,18 +84,20 @@ body{
     margin-top: 80px;
 }
 .history{
-    margin-top: 100px;
+    margin-top: 0px;
     position: relative;
     text-align: left;
     padding-right: 60px;
     margin-bottom: 44px;
     margin-right: 30%;
+    color: #333;
 }
 .history p{
     font-size: 15px;
     line-height: 22px;
     text-align: left;
 }
+
 .btnMehr {
     clear: both;
     border: 1px solid #000;
@@ -102,29 +107,9 @@ body{
     color: black;
     font-weight: bold;
     text-transform: uppercase;
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    
 }
+
 .denk1-zurag{
     margin-top: -13.5%;
     display: block;
