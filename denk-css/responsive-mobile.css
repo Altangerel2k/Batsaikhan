@@ -1,0 +1,153 @@
+@media (max-width: 475px){
+    /*header*/
+    .logo img {
+        width: 60px;
+        height: 55px;   
+    }
+    .navbar {
+        height: 45px;
+    }
+    .menudropdown1 {
+        margin-top: 4vh;
+        width: 120%;
+    }
+    .menudropdown1 ul li {
+        height: 80px;
+    }
+    .menudropdown1 ul > li > ul > li{
+        height: 25px;
+        font-size: 12px;  
+    }
+    /*header*/
+    /*category*/
+    .text-center h3{
+        width: 150px;
+        font-size: 15px;
+        }
+    .text-center p{
+        width: 150px;
+        padding-top: 10px;
+        font-size: 10px;
+        }
+    .text-center img{
+        width: 150px; 
+        height: 150px;
+        display: block;
+    }
+    .column {
+        margin-right: 0%;
+        padding-right: 0%;
+        flex: 25%;
+        max-width: 40%;
+        padding: 0 10px;
+      }
+      .category{
+        width: 700%;
+        margin-top: 0%; 
+        padding-top: 5%; 
+        text-align: center;
+        margin-right: 0%;
+        margin-left: -250%
+    }
+    .ta-zurag1 {
+        width: 150%;
+        padding-top: 0px;
+    }
+    .tuuh-word p {
+        width: 370px;
+        text-align: center;
+        float: none;
+        font-size: 15px;
+        margin-left: -250%;
+    }
+    .hh2 p {
+        font-size: 15px;
+        line-height: 20px;
+        width: 400px;
+        margin-left: -130%;
+    }
+    .taniltsuulga img
+     {
+        margin-left: -200%;
+        height: 100px;
+        width: 500%;
+    }
+    .history p {
+        width: 350px;
+        font-size: 13px;
+        margin-left: -450%;
+    }
+    .btnMehr {
+        margin-left: -450%;
+    }
+    .homeBlockLeft{
+        width: 370px;
+        left: 0px;
+        margin-top: -25px;
+    }
+    .bs-woman img{
+        max-width: 250px;
+        margin-left: -150%;
+    }
+    .statement {
+        width: 300px;
+        float: none;
+        margin-left: -200%;
+    }
+    .statement p {
+        font-size: 15px;
+        margin-top: 10%;
+        text-align: left;
+    }
+    .homeNew p {
+    width: 360px;
+    height: 300px;
+    margin-left: 30px;
+    margin-left: -520%;
+    padding-top: 290%;
+    }
+    /*category*/
+    .ytube iframe {
+        width: 300px;
+        height: 25vh;
+        margin-left: -350%;
+        margin-top: -200%;
+    }
+    .homeBlockLeft{
+        display: none;
+    }
+    .bs-news .box {
+        padding: 20px;
+        box-sizing: none;
+        overflow: none; 
+    }
+    .bs-news{
+        width: 400px;
+    }
+    .footer-nav ul li {     
+        width: 250px;
+        margin-left: -50px;
+        text-align: center;
+        padding-top: 15%;
+        padding: 15%;
+    }
+    .footer-logo img {
+        margin-left: -150px;
+    }
+    .footerinfo1 p {
+        width: 100px;
+        margin-left: -450%;
+    }
+    .footerinfo2 p {
+        width: 300px;
+        text-align: center;
+        margin-left: -1800%;
+    }
+    .footerinfo3 p {
+        width: 400px;
+        margin-left: -1300%;
+    }
+    .logo-footer img {
+        margin-left: -550%;
+    }
+}

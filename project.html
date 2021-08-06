@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!---->
     <title>Denk Pharma</title>
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="images/logo.png">
     <!--garchignii zurag-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,166 +17,165 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- for an scroll animations -->
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="category.css">
-    <link rel="stylesheet" href="content.css">
-    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="denk-css/project.css">
+    <link rel="stylesheet" href="denk-css/header.css">
+    <link rel="stylesheet" href="denk-css/footer.css">
+    <link rel="stylesheet" href="denk-css/category.css">
+    <link rel="stylesheet" href="denk-css/content.css">
+    <link rel="stylesheet" href="denk-css/news.css">
+    <link rel="stylesheet" href="denk-css/responsive.css">
+    <link rel="stylesheet" href="denk-css/responsive-mobile.css">
+    <script src="javascript/nav-js.js"></script>
 </head>
    
 
 <body>
     <!--Header hesgiin ehlel-->
 <!-- -->
+<!--Header hesgiin ehlel-->
 <header>
         
     <!--background zurag oruulav-->
-    <div class="image-container">
-        <img src="pharma1.jpg" style="position: absolute;" width="100%" style="z-index: -1;">
+    <div class="image-container" >
+        <img src="images/pharma1.jpg" style="position: absolute;" width="100%" style="z-index: -1;">
     </div>
     <!--search box-->
-    <div class="boxcontainer">
-        <table class="elementscontainer">
-            <tr>
-                <td>
-                    <input type="text" placeholder="Search..." class="search">
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-        </table>
-    </div>
+    <!--logo zurag-->
     <div class="logo">
-        <a href="#"><img src="logo.png" alt="Image New Title"></a>
-     </div> 
-    <div class="container" id="home">
-        <!--logo zurag-->
+        <a href="#"><img class="single-img" src="images/logo.png" alt="Image New Title"></a>
+    </div> 
         
-        <div class="row">                                    
+    
+    
+    <div class="container" id="home">
+        
+        
+        <div class="row">
+                                                
             <!--navbar menu-->
-                <nav class="navbar navbar-default ">
-                    <div class="container-fluid">
-                        
-                        <label for="check" class="checkbtn" >
-                            <i class="fas fa-bars">
-                            </i>
-                        </label>
-                        <div class="menudropdown1">
+                <nav class="navbar"> 
+                    <label id="bs-btn" onClick="clickMobileMenu()" class="icon">
+                        <span class="fa fa-bars"></span>
+                    </label>
+                        <div class="menudropdown1" id="bs-navigation">
                             <ul>
-                                <li>DENK PHARMA
+                                
+                                
+                                <li><a href="about.html" style="color: black;">DENK PHARMA </a>
                                         <ul class="dropdown">
-                                            <li>ABOUT US</li>
-                                            <li>SOCIAL RESPONSIBLITY</li>
-                                            <li>TEAM IN MUNICH</li>
+                                            <li><a href="about.html" style="color: black;">ABOUT US</a></li>
+                                            <li><a href="about.html" style="color: black;">SOCIAL RESPONSIBLITY</a></li>
+                                            <li><a href="about.html" style="color: black;">TEAM IN MUNICH</a></li>
                                         </ul>
                                 </li>
-                                <li>DENK PRODUCTS
+                                
+                                
+                                <li><a href="about.html" style="color: black;">DENK PRODUCTS </a>
                                     <ul class="dropdown">
-                                        <li>EDUCATION MATERIALS</li>
+                                        <li><a href="about.html" style="color: black;">EDUCATION MATERIALS</a></li>
                                         <li>THERAPEUTC AREAS</li>
-                                        <li>THERAPEUTC PRODUCT INDEX</li>
+                                        <li>THERAPEUTC PRODUCT</li>
                                     </ul>
                                 </li>
-                                <li>DENK QUALITY
+                                
+                                
+                                <li><a href="about.html" style="color: black;">DENK QUALITY </a>
                                     <ul class="dropdown">
-                                        <li>PRODUCTION AND CONTROL</li>
+                                        <li><a href="about.html" style="color: black;">PRODUCTION AND CONTROL</a></li>
                                         <li>PACKAGING</li>
                                         <li>STABLITY</li>
                                     </ul>
                                 </li>
-                                <li>NEWS
+                                
+                                
+                                <li><a href="about.html" style="color: black;">NEWS</a>
                                     <ul class="dropdown">
                                         <li>NEWS</li>
                                         <li>MEDIA</li>      
                                     </ul>
                                 </li>
-                                <li>Home
-                                    <ul class="DENK FAMILY">
-                                    </ul>
+                                <li class="btn"><a href="about.html" style="color: black;">DENK FAMILY</a>
+                                    
                                 </li>
                                 
                             </ul>  
-                        </div>    
-                    </div>   
+                            
+                        </div>      
                 </nav>
                 <!--responsive background-->
-                    <div class="background2"></div>
+                    
         </div>
     </div>
 </header>
-
 <!--Header heseg duusav-->
         
 
-<!--Category heseg-->
+
 <section class="services">
     <div class="container-fluid main">
         <div class="service">
             <div class="row">
-                <div class="container-fluid mainn">
-                    <!--Ehnii category-->
-                    <div class="col-md-3 text-center words">
-                        <a href="https://denkpharma.de/en/about-us/">
-                            <img class="img-responsive" 
-                            src="https://denkpharma.de/wp-content/uploads/2015/07/DENK_Startseite_Teaser1.jpg" 
-                            alt="" style="height:200px">
-                        </a>                                                
-                        <h2>ABOUT DENK<h2>
-                            <div class="bdhomeBoder"></div>
-                        <p>Learn more about DENK PHARMA, our history, our mission and our values.</p>
-                    </div>
-                <!--2 dahi category-->
-                        <div class="col-md-3 col-sm-3 col-xs-6 text-center words" id="pro1">
-                            <a href="https://denkpharma.de/en/therapeutic-areas/">
-                                <img class="img-responsive" 
-                                src="https://denkpharma.de/wp-content/uploads/2015/07/DENK_Startseite_Teaser4.jpg" 
-                                alt="" style="height:200px">
-                            </a>                                                      
-                            <h2>OUR PRODUCTS<h2>
-                                <div class="bdhomeBoder"></div>
-                            <p>Learn more about our&nbsp;continually growing product portfolio including more than 70 products.</p>
-                        </div>
-                    <!--3dahi category-->
-                        <div class="col-md-3 col-sm-3 col-xs-6 text-center words" id="pro2">
-                            <a href="https://denkpharma.de/en/quality/">
-                                <img class="img-responsive" 
-                                src="https://denkpharma.de/wp-content/uploads/2015/07/DENK_Startseite_Teaser3.jpg"
-                                 alt="" style="height:200px">
-                            </a>                          
-                            <h2>OUR PRODUCTS<h2>
-                                <div class="bdhomeBoder"></div>
-                            <p>Learn more about our&nbsp;continually growing product portfolio including more than 70 products.</p>
-                        </div>
-                    <!--4duh category-->
-                        <div class="col-md-3 col-sm-3 col-xs-6 text-center words" id="pro3">
-                            <a href="https://denkpharma.de/en/news/">   
-                                <img class="img-responsive" 
-                                src="https://denkpharma.de/wp-content/uploads/2020/03/News.jpg" 
-                                alt="" style="height:200px">
-                            </a>   
-                            <h2>OUR PRODUCTS<h2>
-                                <div class="bdhomeBoder"></div>
+
+
+                <!--Category heseg-->
+                <div class="container-fluid">
+                    <div class="row category">
+                    <div class="column">
+                        <div class="col-md-3 text-center">
+                            <img  src="images/teaser1.jpg"> 
+                            <h3>ABOUT DENK<h3>
                             <p>Learn more about our&nbsp;continually growing product portfolio including more than 70 products.</p>
                         </div>
                     </div>
+                    <div class="column">
+                        <div class="col-md-3 text-center">
+                            <img  src="images/teaser2.jpg"> 
+                            <h3>ABOUT DENK<h3>
+                            <p>Learn more about our&nbsp;continually growing product portfolio including more than 70 products.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="col-md-3 text-center">
+                            <img  src="images/teaser3.jpg"> 
+                            <h3>ABOUT DENK<h3>
+                            <p> Learn more about our&nbsp;continually growing product portfolio including more than 70 products.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="col-md-3 text-center">
+                            <img  src="images/teaser4.jpg"> 
+                            <h3>ABOUT DENK<h3>
+                            <p> Learn more about our&nbsp;continually growing product portfolio including more than 70 products.
+                                </p>
+                        </div>
+                    </div>
+                        
+                        
+                    </div>
+    
+                </div>
+                
                 <!--Category hesgiin tugsgul-->
 
 
 
+                
+                
+        
+               
+                    
+                
 
                 <!--Taniltsullga tuuh№1 ehlel-->
-                    <div class="col-md-3 col-sm-4 ">
-                        <img class="ta-zurag1" src="https://denkpharma.de/wp-content/uploads/2015/07/4917010-Seal-70-years-english-686x1024.png" >				            
+                    <div >
+                        <img class="ta-zurag1" src="images/70years.png" >				            
                     </div>
                     <div class="col-md-9 col-sm-8 tuuh-word">
-                        <div class="talk">
-                            <span></span>
-                        </div>
                         <p>Denk Pharma is celebrating 70 years of quality and expertise
                            in the production and trade of pharmaceutical products.</p>
-                        <div class="kategoryBlockRight" style="width: 1394px; right: -1394px;">
+                        <div class="kategoryBlockRight" style="width: 140px; right: -140px;">
                         </div>
                     </div>
                 <!--taniltsuulga tuuh№1 tugsgul-->
@@ -190,6 +189,9 @@
 
                 <!--Shagnal taniltsuulga-->
                     <div class="container taniltsuulga">
+                        <div class="img-responsive denk-image">
+                            <img  src="https://denkpharma.de/wp-content/uploads/2015/07/DENK_Startseite_State1-Start.jpg" style="height:210px;">				          
+                        </div>
                         <div class="history">
                             <p>Denk Pharma is the <strong>winner of the Bavarian Export Prize 2013</strong>. The prize is assigned 
                                 once a year by the <br>Minister of Economy and the Bavarian Chamber of Industry and Commerce to honor
@@ -197,32 +199,28 @@
                             <a href="https://denkpharma.de/en/about-us/" class="btn btnMehr">
                             Learn more about us</a>	
                         </div>
-                        <div class="denk1-zurag">
-                            <img  src="https://denkpharma.de/wp-content/uploads/2015/07/DENK_Startseite_State1-Start.jpg" style="height:210px;">				          
-                        </div>
                         
-                        <div class="homeBlockLeft" style="width: 1000px; left: -92px; margin-top: -25px;">
+                        
+                        
+                        <div class="homeBlockLeft">
                         </div> 
                     </div>
                 <!--Shagnal taniltsuulga tugsgul-->
 
                 <!--Denk 70 jil ehlel-->
-                    <div class="col-md-3 col-sm-4" style="padding-top: 10%;">
+                    <div class="col-md-3 col-sm-4 bs-woman" style="padding-top: 10%;">
                         <img class="img-responsive" 
                         src="https://denkpharma.de/wp-content/uploads/2015/07/DENK_Startseite_State2-Start.jpg" 
                         alt=""> 
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-8 quality1">
-                    <div class="talk">
-                        <span></span>
-                    </div>
                     <div class="statement">
                         <p>Denk Pharma is celebrating 70 years of quality and expertise
                             in the production and trade of pharmaceutical products.</p>
                         <label class="statement-label">Quality Department</label>                        
                     </div>
-                    <div class="kategoryBlockRight1" style="width: 35%; right: -150px; ; margin-top: 0%;">
+                    <div class="kategoryBlockRight1" style="width: 30%; right: -34px; ; margin-top: 0%;">
                     </div>
                 </div>
                 <!--Denk 70 jil Tugsgul-->
@@ -236,134 +234,115 @@
                             <div class="row3">
                                 <div class="col-md-12 text-left">
                                     <h2>NEWS</h2>
-                                    <div class="kategoryBlockLeft" style="width: 140%; left: -270px; margin-top: 0%;">
+                                    <div class="kategoryBlockLeft" style="width: 140%; left: -200px; margin-top: 0%;">
                                     </div>
                                 </div>
                                 <div class="offset-md-top-50">
                                     <div class="News1">
-                                        <h3>
-                                            <a href="https://denkpharma.de/en/malaria-in-africa-interview-with-nicolas-from-burkina-faso/">
-                                                Malaria in Africa: Interview with Nicolas Compaore, Market Manager in Burkina Faso
-                                            </a>
-                                        </h3>
+                                        
                                         <p>The WHO reports a worsening of the malaria incidence in different African area. Nicolas
                                         , do you also recognize this increase of incidence in Burkina Faso?Nicolas: 
                                         “Yes, we can say that the incidence is worsening because for the past year there has 
                                         been a sharp drop in health care attendance due to the pandemic. This has […]</p>
                                         <a href="https://denkpharma.de/en/malaria-in-africa-interview-with-nicolas-from-burkina-faso/">
                                         </a>
-                                    </div>
-                                        
-                                    <a href="https://denkpharma.de/en/news/" class="glyphicon glyphicon-chevron-right news-span span-next offset-md-top-15 ">
+                                    </div>                                       
                                     
-                                    </a>
                                 </div>
                                 
                             </div>                
                         </div>   
                     </div>
                     <!--Bichleg ehlel-->
-                    <div class='row col-md-9 col-sm-8c offset-md-top-75 Bichleg' style="width: 75%; margin-top: -600px;">                    
-                        <div class="col-md-9 bich2" >
-                            <iframe title="Denk Pharma - Quality for your health - made in Germany"  src="https://www.youtube.com/embed/sTFttor7Fd8?feature=oembed"
-                            style="margin-top:130px;margin-left:500px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-                            </iframe>                     
-                        </div>
+                    <div class="ytube">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
                     </div>
                 <!--Medee content Tugsgul-->
 
              <!-- Yellow box -->          
-                    <div class="row content karriereList offset-md-top-130">
-                        <div class="homeBlockLeftRegistry match-height" style="width: 500px; left: -230px; height: 237px;">
-                        </div>
-                        <div class="col-md-3 homeWeRegister match-height" style="height: 237px;">
-                         <p>WE REGISTER <br>IN GERMANY</p>
-                        </div>
+                    <div class="row content karriereList " id="bs-yellow">
+                        <div class="homeBlockLeft" style="width: 110%; left: -50px; margin-top: -25px;">
+                        </div> 
+                    </div>   
             <!--Yellow box end-->
             <!--Medee box-->
-                        <div class="col-md-3 col-sm-4 match-height" style="height: 237px;">
-                            <div class="karriereInfo">
-                                <h2>News</h2>
-                                
-                                    <a href="https://denkpharma.de/en/news/" 
-                                        class="glyphicon glyphicon-chevron-right box-info-span span-next" 
-                                        aria-hidden="true">
-                                    </a>
-                                    
-                                <h4>COVID-19</h4>
-                                <p>Denk Pharma is taking various measures to contain the 
-                                   COVID-19 risk of infection for our employees around the world.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 match-height" style="height: 237px;">
-                            <div class="karriereInfo">
-                                <h2>Quality</h2>
-                                <a href="https://denkpharma.de/en/quality/" 
-                                class="glyphicon glyphicon-chevron-right box-info-span span-next"
-                                aria-hidden="true">
-                                </a>
-                                <h4>Our guiding principle</h4>
-                                <p>Quality is our guiding principle. Starting with the production process of our products
-                                     until the product reaches the end consumer.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 match-height" style="height: 237px;">
-                            <div class="karriereInfo">
-                                <h2>Products</h2>
-                                <a href="https://denkpharma.de/en/therapeutic-areas/" 
-                                class="glyphicon glyphicon-chevron-right box-info-span span-next"
-                                aria-hidden="true">
-                                </a>
-                                <h4>Clopi-Denk</h4>
-                                <p>Our antiplatelet inhibitor of choice. Proven &nbsp;in mono, 
-                                    dual and triple therapy. Prevention and therapy of atherothrombotic events.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                        
+                    
             <!--Medee box-->
-
-
-            <!--Footer ehlel-->
-                <footer class="footer">
-                    <div class="container foot">
-                        <div class="row1">
-                            <!-- footer logo-->
-                            <div class="logo1">
-                                <a href="project.html">
-                                    <img src="logo.png" alt="Image New Title">
-                                </a>
-                            </div>
-                            <!-- footer logo -->
-                            <div class="footer-col">
-                                <h4>DENK PHARMA</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h4>THERAFEUTIC AREAS</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h4>DENK QUALITY</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h4>NEWS</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h4>CONTACT</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h4>IMPRINT</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h4>PRIVACY POLICY</h4>
-                            </div>
+            <section class="news-body">
+            <div class="container bs-news">
+                <div class="box">
+                    
+                        <div class="content1">
+                            <h3>News</h3>
+                            <p>Denk Pharma is taking various measures to contain the 
+                                COVID-19 risk of infection for our employees around the world.
+                            </p>
+                            <a href="#">Read More</a>
                         </div>
-                    </div>
+                </div>
+                <div class="box">
+                    
+                        <div class="content1">
+                            <h3>Our guiding principle</h3>
+                            <p>Quality is our guiding principle. Starting with the production process of our products
+                                until the product reaches the end consumer.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                </div>
+                <div class="box">
+                    
+                        <div class="content1">
+                            <h3>Clopi-Denk</h3>
+                            <p>Our antiplatelet inhibitor of choice. Proven &nbsp;in mono, 
+                                dual and triple therapy. Prevention and therapy of atherothrombotic events.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                </div>
+            </div>
+            </section>
+
+        </div>
+    </div>
+    <!--container-fluid div-->
+            <div class="footer-logo">
+                <a href="#"><img class="single-img" src="images/logo.png" alt="Image New Title"></a>
+            </div> 
+            <!--Footer ehlel-->
+            <nav class="footer-navbar"> 
                 
-                </footer> 
+                    <div class="footer-nav">
+                        <ul>
+                            
+                            
+                            <li><a href="about.html" style="color: black;">DENK PHARMA </a>
+                            </li>
+                            
+                            
+                            <li><a href="about.html" style="color: black;">DENK PRODUCTS </a>
+                            </li>
+                            
+                            
+                            <li><a href="about.html" style="color: black;">DENK QUALITY </a>
+                            </li>
+                            
+                            
+                            <li><a href="about.html" style="color: black;">NEWS</a>
+                            </li>
+                            <li class="btn"><a href="about.html" style="color: black;">DENK FAMILY</a>
+                                
+                            </li>
+                            
+                        </ul>  
+                        
+                    </div>      
+            </nav>
                 <!--Hayg utas Ehlel-->
-                <div class="row content offset-md-top-125 " style="width: 100%;">
+                <section class="bs-contact">
+                <div class="row" style="width: 100%;">
                     <div class="col-md-12 col-sm-12 col-xs-12 footerinfo">
                         <div class="row" style="margin-top:-80px;">
                             <div class="col-md-3 footerinfo1">
@@ -383,13 +362,13 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
+                </section>  
                 
 
             
-        </div>
-    </div>
+        
             
-    </section>
+</section>
 </body>
 </html> 

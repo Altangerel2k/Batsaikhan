@@ -1,0 +1,99 @@
+
+/* Background*/
+html, body{
+    width: 100%;
+}
+.image-container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Background*/
+/* navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+.menudropdown1
+{
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: -15%;
+    margin-right: -20%;
+}
+.menudropdown1 ul{
+    padding: 0px;
+}
+.menudropdown1 ul li{
+    float: left;
+    background-color: #fff200;
+    color: black;
+    height: 100px;
+    line-height: 50px;
+    width: 160px;
+    list-style: none;
+    font-size: 14px;
+    font-family: "futura-pt",sans-serif;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    padding-top: 3%;
+    position: relative;
+}
+.menudropdown1 ul li ul{
+    display: none;
+}
+.menudropdown1 ul li:hover > ul{
+    display: block;
+}
+.menudropdown1 ul li:hover{
+    color: gray;
+}
+.menudropdown1 ul > li > ul > li{
+    height: 35px;
+    font-size: 12px;
+    font-family: "futura-pt",sans-serif;
+    font-weight: bold;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
+
+
+
+/* Logo img*/
+.logo img {
+    width: 105px;
+    height: 105px;   
+    z-index: 1;
+    position: relative;
+}
+.logo{
+    padding-top: 5%;
+    justify-content: right;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+.single-img{
+    padding: 0 10px 10px;
+    
+}
+.logo img:hover{
+    opacity: .5;
+    transition: .9;
+}
+
+/*logo image*/
+.show, .icon, input{
+    display: none;
+}
+
+
+  

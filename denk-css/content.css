@@ -96,50 +96,13 @@
 }
 .row3 a{
     color: #333;
-
 }
 
-.youtube{
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    margin-left:900px;
-    margin-top: -400px;
-}
-
-.bich2 iframe {
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-    width: 640px;
-    height: 400px;
-    padding-top: -100px;
-    margin-left: -800px;
-    
-}
-.Bichleg{
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-    position: relative;
-}
-.bich2 p{
-    padding-left: 800px;
-    padding-top:10px;
-    width:100%;
-    position:absolute;
-}
 .text-left h2 {
     display: block;
     margin: 90px;
     text-align: center;
     font-family: sans-serif;
-    
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;  
@@ -183,7 +146,7 @@
     right: 90px;
     bottom: 10px;
     margin: 0;
-    margin-right: -90px;
+    margin-right: -50px;
     color: #000;
     
 }
@@ -205,6 +168,19 @@
 }
 .offset-md-top-50 {
     margin-top: 50px;
-    
 }
+.statement-label{
+    text-align: center;
+}
+.ytube{
+    margin-top: -40%;
+    margin-left: 35%;
+}
+.ytube iframe{
+    width: 90% ;
+    height: 55vh;
+}
+
 /*yellow box*/
+
+
